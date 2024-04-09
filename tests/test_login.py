@@ -5,14 +5,10 @@ from tests.test_base import TestBase
 
 
 class TestLogin(TestBase):
-    login_page_url = (
-        "https://iiot.chte.cloud/keycloak/realms/movenpick/protocol/openid-connect/auth?client_id"
-        "=frontend&redirect_uri=https%3A%2F%2Fmovenpick.chte.cloud%2Fiot%2FAboutIIoT&state=332466df"
-        "-bcfa-49ba-b0f2-6ef254510056&response_mode=fragment&response_type=code&scope=openid&nonce"
-        "=7394d94c-6748-40ae-93a7-2263f17edc1d")
-    username_field = "movenpick"
+    login_page_url = "xxx"
+    username_field = "xxx"
     username_input = (By.ID, "username")
-    password_field = "movenpick@cht"
+    password_field = "xxx"
     password_input = (By.ID, "password")
     sign_in_button = (By.NAME, "login")
     dashboard_tab_span = (By.XPATH, "//span[text()='儀表板']")
